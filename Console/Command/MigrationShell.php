@@ -11,7 +11,7 @@
 
 App::uses('Shell', 'Console');
 App::uses('AppShell', 'Console/Command');
-App::uses('CakeSchema', 'Model');
+App::uses('CakeSchema', 'Migrations.Model');
 App::uses('MigrationVersion', 'Migrations.Lib');
 App::uses('String', 'Utility');
 App::uses('ClassRegistry', 'Utility');
@@ -757,7 +757,7 @@ class MigrationShell extends AppShell {
  * @return void
  */
 	protected function _updateSchema() {
-		$command = 'schema generate --connection ' . $this->connection;
+		$command = 'Migrations.schema generate --connection ' . $this->connection;
 		if (!empty($this->params['plugin'])) {
 			$command .= ' --plugin ' . $this->params['plugin'];
 		}
