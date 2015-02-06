@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Release 3.0.0
+-------------
+
+First version for Evoluted New Medias Core.
+
+* [921842c](https://github.com/evolutednewmedia/migrations/commit/921842c) Added the fixes for our core. Fixes issue with overriden plugin models appearing in app migration. Increased semver
+
 Release 2.3.5
 -------------
 
