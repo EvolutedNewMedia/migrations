@@ -1,5 +1,5 @@
 {
-	"name": "cakedc/migrations",
+	"name": "evolutednewmedia/migrations",
 	"description": "Migrations Plugin for CakePHP",
 	"type": "cakephp-plugin",
 	"keywords": ["cakephp","migrations"],
@@ -10,6 +10,10 @@
 			"name": "Cake Development Corporation",
 			"email": "team@cakedc.com",
 			"homepage": "http://cakedc.com"
+		},
+		{
+			"name": "Evoluted New Media",
+			"email": "developers@cakedc.com"
 		}
 	],
 	"support": {
