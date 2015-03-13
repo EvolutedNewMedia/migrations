@@ -6,7 +6,7 @@ Release 3.0.2
 
 Merged in CakeDC 2.3.6
 
-
+* [6a422cc](https://github.com/EvolutedNewMedia/migrations/commit/6a422cc707a90ef1a102af6c90adc79d8272e7df) Merged in CakeDC 2.3.6 and fixed conflicts
 
 
 Release 3.0.0
