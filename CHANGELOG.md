@@ -1,6 +1,14 @@
 Changelog
 =========
 
+Release 3.0.2
+-------------
+
+Merged in CakeDC 2.3.6
+
+
+
+
 Release 3.0.0
 -------------
 
@@ -8,8 +16,26 @@ First version for Evoluted New Medias Core.
 
 * [921842c](https://github.com/evolutednewmedia/migrations/commit/921842c) Added the fixes for our core. Fixes issue with overriden plugin models appearing in app migration. Increased semver
 
+
+Release 2.3.6
+-------------
+
+https://github.com/CakeDC/migrations/tree/2.3.6
+
+* [ccac5a3](https://github.com/cakedc/migrations/commit/ccac5a3) Update translation files
+* [bca17ea](https://github.com/cakedc/migrations/commit/bca17ea) Show prompt for marking as successful when failure
+* [18aa020](https://github.com/cakedc/migrations/commit/18aa020) crlf to lf
+* [db96c9e](https://github.com/cakedc/migrations/commit/db96c9e) Grammatical corrections for generate command
+* [cc7b03a](https://github.com/cakedc/migrations/commit/cc7b03a) Fix CS issues
+* [942eab0](https://github.com/cakedc/migrations/commit/942eab0) Fix grammar in console output
+* [89ddfc1](https://github.com/cakedc/migrations/commit/89ddfc1) Tidy up unlinking in tests
+* [894f736](https://github.com/cakedc/migrations/commit/894f736) Fix for incorrect naming of all plugin migrations
+
+
 Release 2.3.5
 -------------
+
+https://github.com/CakeDC/migrations/tree/2.3.5
 
 * [69e6136](https://github.com/cakedc/migrations/commit/69e6136) Add translations for new/missing strings
 * [c98ecdd](https://github.com/cakedc/migrations/commit/c98ecdd) Exit shell if comparing schema.php and nothing has changed
