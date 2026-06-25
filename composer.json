@@ -24,6 +24,9 @@
 		"irc": "irc://irc.freenode.org/cakephp",
 		"source": "https://github.com/CakeDC/migrations"
 	},
+	"replace": {
+		"cakedc/migrations": "*"
+	},
 	"require": {
 		"php": ">=5.6.0",
 		"cakephp/cakephp": ">=2.9.0",
