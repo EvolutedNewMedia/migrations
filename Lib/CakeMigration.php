@@ -244,12 +244,14 @@ class CakeMigration extends CakeObject {
 			if (!$result) {
 				return false;
 			}
+
+			return $this->db->commit($null);
 		} catch (Exception $e) {
 			$this->db->rollback($null);
 			throw $e;
 		}
 
-		return $this->db->commit($null);
+		return true;
 	}
 
 /**
